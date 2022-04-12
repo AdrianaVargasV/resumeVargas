@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200;1,300&display=swap');
+
+/* Head */
+.logo {
+    /*background-color:honeydew; */
+    color: darkblue;
+    font-family: 'Poppins', sans-serif;
+}
+/* fin de Head*/
+
+/* body */
+body {
+    background-image: url(imagenes/fondo.jpg);
+}
+/* fin de body */
+
+/* NAV */
+nav {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+nav li {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    background-color: darkcyan;
+    margin: 5px; 
+    padding: 10px; 
+}
+/* fin de NAV */
+
+/* index about */
+.about {
+    margin: 50px; 
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+
+    /* agregando GRID */
+    display:grid;
+    grid-template-columns: auto auto 1fr;
+    gap: 20px;
+
+
+}
+/* fin de index about */
+
+/* index about me  */
+.aboutme p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+/* .aboutme {
+    border: 1px black solid;
+} */
+
+/* fin de index about me  */
+
+/* index proyecto destacado */
+.proyectod{
+    margin: 50px; 
+    padding: 50px; 
+    font-family: 'Poppins', sans-serif;
+}
+
+.proyecto p{
+    text-align: justify;
+}
+/* fin index proyecto destacado */
+
+
+/* footer */
+.rrss {
+    text-align: center;
+    margin: 100px; 
+    padding: 100px;
+}
+/* fin de footer */
+
+/* seccion about */
+.aboutPadre {
+    margin: 50px; 
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+
+    /* agregando GRID */
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+}
+.aboutHijo p{
+    display: flex;
+    text-align: justify;
+}
+/* fin de sección about */
+
+
+/* sección servicios */
+.serviciosPadre {
+    margin: 50px;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+
+    /* AGREGANDO GRID */
+    display: grid;
+    row-gap: 2em;
+}
+
+.serviciosHijo p {
+    display: flex;
+    text-align: justify;
+}
+.serviciosImagen {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    max-width: 960px; 
+    margin: 0 auto;
+} 
+
+/* fin sección servicios */
+
+/* inicio sección Portafolio */
+.portafolioPadre {
+    margin: 50px;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.portafolioHijo-title {
+    text-align: center;
+}
+.portafolioHijo {
+        /* AGREGANDO GRID */
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 20px;
+}
+
+.portafolioHijo p {
+    display: flex;
+    text-align: justify;
+}
+/* fin sección portafolio */
+
+/* inicio sección contacto */
+.contacto{
+    margin: 50px;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+/* fin sección contacto */
