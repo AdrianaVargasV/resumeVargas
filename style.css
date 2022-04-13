@@ -14,6 +14,24 @@
 }
 /* fin de Head*/
 
+/* Agregando animación a "bienvenidos" */
+h1 {
+    text-align: center;
+    margin-top: 50px;   
+    color: purple;
+    font-size: 40px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 7px;    
+}
+h1 span {
+    transition: 1s linear;
+}
+h1:hover span {
+    text-shadow: 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff;
+}
+/* fin de bienvenidos */
+
+
 /* body */
 body {
     background-image: url(imagenes/fondo.jpg);
@@ -25,6 +43,10 @@ nav {
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
+.nav a{
+    text-decoration: none; /* quita el subrayado de links */
+    text-shadow: 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff;
+}
 
 nav li {
     font-family: 'Poppins', sans-serif;
@@ -33,6 +55,12 @@ nav li {
     margin: 5px; 
     padding: 10px; 
 }
+
+.nav:active{
+    color: rgb(119, 238, 238);
+    cursor: pointer;
+}
+
 /* fin de NAV */
 
 /* index about */
@@ -45,8 +73,6 @@ nav li {
     display:grid;
     grid-template-columns: auto auto 1fr;
     gap: 20px;
-
-
 }
 /* fin de index about */
 
@@ -55,6 +81,22 @@ nav li {
     font-size: 1rem;
     text-align: justify;
 }
+/* AGREGANDO ANIMACIÓN A LOS TITULOS DE INDEX */
+h2 {
+    text-align: justify;   
+    color: black;
+    font-size: 30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;    
+}
+h2 span {
+    transition: 1s linear;
+}
+h2:hover span {
+    text-shadow: 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #fff;
+}
+/* FIN DE TITULOS */
+
 
 /* .aboutme {
     border: 1px black solid;
